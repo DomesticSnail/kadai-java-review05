@@ -70,7 +70,7 @@ public class Review05 {
             BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
             line = key.readLine();
         } catch (IOException e) {
-            System.err.println("Error reading input.");
+            System.err.println("入力の読み取り中にエラーが発生しました。");
         }
         return line;
     }
